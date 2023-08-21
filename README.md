@@ -1,8 +1,22 @@
 # Cloud Computing: Trabajo de Investigación
 
+
 ## 1. VM en Proovedores líderes de Cloud Computing
 
 ### 1.1 Regiones y Zonas de disponibilidad o equivalente.
+
+Una **región** es una ubicación física geográfica, donde se encuentran zonas de disponibilidad que albergan centro de datos ó **data centers** de algún proveedor de Cloud Computing. En una región pueden existir muchas zonas de disponibilidad (**Availability Zone**), pero como mínimo se espera que 3, pues si una de estas **AZ** llega a caerse existe un respaldo de conexión en la misma región. 
+
+#### 1.1.1 AWS
+
+Según su propio sitio web, dentro de la sección [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/), se determina que al momento de redactar este trabajo de investigación, **Amazon Web Services** cuenta con 102 zonas de disponibilidad (*availability zone*) dentro de 32 regiones alrededor del mundo.
+
+#### 1.1.2 Microsoft Azure
+
+Azure 
+
+#### 1.1.3 Google Cloud
+
 
 ### 1.2 Precios para Máquinas Virtuales
 
