@@ -7,7 +7,7 @@
 
 Una **región** es una ubicación física geográfica, donde se encuentran zonas de disponibilidad que albergan centro de datos ó **data centers** de algún proveedor de Cloud Computing. En una región pueden existir muchas zonas de disponibilidad (**Availability Zone**), pero como mínimo se espera que 3, pues si una de estas **AZ** llega a caerse existe un respaldo de conexión en la misma región (**Zone-Redundant**). 
 
-#### 1.1.1 AWS
+#### 1.1.1 Amazon Web Services
 
 Según su propio sitio web, dentro de la sección [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/), se determina que al momento de redactar este trabajo de investigación, **Amazon Web Services** cuenta con 102 zonas de disponibilidad (*availability zone*) dentro de 32 regiones alrededor del mundo.
 
@@ -23,7 +23,43 @@ El gigante de Google anuncia en su sitio web [google cloud](https://cloud.google
 
 ### 1.2 Precios para Máquinas Virtuales
 
+En este caso para la búsqueda de precio de cada proveedor vamos a comparar en base al modelo más económico que hemos armado, este contará con 2 vCPU, 2 GB de RAM, 10 GB SSD y su región será la costa este de Estados Unidos (**EAST-US**).
+
+No obstante la máquina virtual tendrá un sistema Linux y usará la distribución de Ubuntu. Además estará dentro de la categoría de **Uso general**.
+
+#### 1.2.1 Amazon Web Services
+
+Para el caso de AWS contamos con diferentes instancias que cumplen con el cometido requerido, no obstante para este caso elegimos la instancia [t3a small](https://aws.amazon.com/ec2/pricing/on-demand/). Tiene un precio de $0.0188\$$ la hora, el problema es que debemos sumarle a ello un almacenamiento del tipo [EBS](https://aws.amazon.com/ebs/pricing/) que cuesta aproximadamente $3.00\$$ mensuales con 10GB.
+
+<p align="center">
+    <img align="center" src="src/images/cloud_aws.png"/>
+</p>
+
+Es así que el total nos da $(0.0188 \cdot 24 \cdot 30) + 3.00 = 16.54 \$$ dolares mensuales.
+
+#### 1.2.2 Microsoft Azure
+
+Para el caso de Microsoft Azure dentro de su [calculadora](https://azure.microsoft.com/es-es/pricing/calculator/) de precios seleccionamos la instancia [Av2 series v2](https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series). Esta cuesta con un costo aproximado de $0.043\$$ por hora. Es decir esto nos daría un costo aproximado de $31,39$$ mensualmente, además debemos considerar que estamos cotizando con un vCPU menos (*modelo más cercano*).
+
+<p align="center">
+    <img align="center" src="src/images/cloud_machine.png"/>
+</p>
+
+#### 1.2.3 Google Cloud
+
+En este caso, a partir de su modelo de creación por [calculadora](https://cloud.google.com/products/calculator#id=abf90f35-0d04-4796-91a9-8ee4889cf5cb), pudimos encontrar nuestro modelo planteado anteriormente, el cual nos arrojó un costo aproximado de $13.63\$$ y en conjunto con el almacenamiento SSD de 10GB $1.70 \$$, por lo que el costo final es $15.33 \$$ mensuales, muy parecido al de AWS. 
+
+<p align="center">
+    <img align="center" src="src/images/cloud_google.png"/>
+</p>
+
 ### 1.3 Comparación entre los 3 proveedores. Máquinas pequeñas/medianas/grandes.
+
+#### 1.3.1 Máquina pequeña
+
+#### 1.3.2 Máquina mediana
+
+#### 1.3.3 Máquina grande
 
 ### 1.4 Imágenes y diagramas
 
@@ -31,6 +67,9 @@ El gigante de Google anuncia en su sitio web [google cloud](https://cloud.google
 
 - https://azure.microsoft.com/es-es/explore/global-infrastructure
 - https://aws.amazon.com/about-aws/global-infrastructure/
+- https://cloud.google.com/products/calculator#id=abf90f35-0d04-4796-91a9-8ee4889cf5cb
+- https://aws.amazon.com/ec2/pricing/on-demand/
+- https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series
 
 ---
 
