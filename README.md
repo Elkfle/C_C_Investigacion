@@ -60,11 +60,37 @@ A su vez, tomaremos como referencia la "máquina de uso general" de cada proveed
 
 #### 1.3.1 Máquinas de Amazon
 
+Amazon Web Services describe a sus máquinas [t3a](https://aws.amazon.com/es/ec2/instance-types/) como "el tipo de instancia de uso general ampliable de última generación". Están diseñadas para todo tipo de aplicaciones que requieran un uso moderado del procesador, donde a veces pueden experimentar tipos de uso. Al ser de uso general, ofrecen hasta un 10% de ahorro en costos comparado a otras instancias. 
+
 ##### 1.3.1.1 Máquina pequeña
+
+<p align="center">
+    <img align="center" src="src/images/aws_t3a_small.png"/>
+</p>
+
+Ya habíamos planteado las especificaciones y precios de esta máquina previamente. Posee un precio de $0.0188\$$ la hora, sumado al precio de aproximadamente $3.00\$$ mensuales con 10GB de almacenamiento en EBS(Elastic Block Store).
+En total, el precio sería: 
+$(0.0188 \cdot 24 \cdot 30) + 3.00 = 16.54 \$$ dólares mensuales.
 
 ##### 1.3.1.2 Máquina mediana
 
+<p align="center">
+    <img align="center" src="src/images/aws_t3a_medium.png"/>
+</p>
+
+Esta máquina nos ofrece la misma capacidad de CPU que la anterior, solo que duplica la cantidad de memoria RAM disponible, al igual que su precio, que es de $0.0376\$$ la hora. A su vez, tenemos que sumarle el precio de almacenamiento en EBS. Ya que estamos tomando en cuenta una máquina superior, supondremos que necesitaremos un almacenamiento de 20GB de almacenamiento general (gp3), que ofrece un precio de $0.08\$$ por gigabyte de uso. El total sería:
+
+$(0.0376 \cdot 24 \cdot 30) + 0.08 \cdot 20 = 28.672 \$$ dólares mensuales.
+
 ##### 1.3.1.3 Máquina grande
+
+<p align="center">
+    <img align="center" src="src/images/aws_t3a_large.png"/>
+</p>
+
+Nuevamente tenemos la misma capacidad de CPU que la máquina anterior. Aquí vamos encontrando el patrón de Amazon Web Services. Hasta cierto punto, duplica la cantidad de memoria RAM disponible y el precio, que en este caso es de $0.0752\$$ la hora. Hay que sumarle el precio de almacenamiento en EBS. Tomaremos el caso donde necesitaremos el doble  de almacenamiento general (gp3), es decir 40 GB. El total sería:
+
+$(0.0752 \cdot 24 \cdot 30) + 0.08 \cdot 40 = 57.344\$$ dólares mensuales.
 
 #### 1.3.2 Máquinas de Microsoft Azure
 
