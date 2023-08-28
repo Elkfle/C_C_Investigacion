@@ -55,6 +55,9 @@ En este caso, a partir de su modelo de creación por [calculadora](https://cloud
 
 ### 1.3 Comparación entre los 3 proveedores. Máquinas pequeñas/medianas/grandes.
 
+Para poder realizar una mejor comparación entre los 3 proveedores, verificaremos los precios de la región de la costa este en los Estados Unidos (**EAST-US**) para cada uno, basándonos en el caso de que la máquina será usada 24 horas, 7 días a la semana.
+A su vez, tomaremos como referencia la "máquina de uso general" de cada proveedor, que es la que más se asemeja a la máquina que estamos buscando.
+
 #### 1.3.1 Máquinas de Amazon
 
 ##### 1.3.1.1 Máquina pequeña
@@ -90,6 +93,7 @@ En este caso, a partir de su modelo de creación por [calculadora](https://cloud
 - https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series
 - https://aws.amazon.com/es/ec2/instance-types/
 - https://cloud.google.com/compute?hl=es#section-6
+- https://cloud.google.com/compute/docs/machine-types#e2_machine_types
 
 ---
 
