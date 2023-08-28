@@ -134,11 +134,43 @@ Esta máquina nos ofrece 4 núcleos de procesamiento, 8 GB de memoria RAM y 40GB
 
 #### 1.3.3 Máquinas de Google Cloud
 
+Para el caso de Google Cloud tomaremos como referencia la máquina de uso general de nivel más bajo. Google la nombra como E2, cuya prioridad es tratar de reducir los costos al máximo posible. Ofrece servidores web con poco tráfico, apps de la oficina administrativa, microservicios en contenedores, entornos de desarrollo y pruebas, [entre otros servicios](https://cloud.google.com/compute/docs/machine-types#e2_machine_types).
+
 ##### 1.3.3.1 Máquina pequeña
+
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_small.png"/>
+</p>
+
+La máquina pequeña de Google ofrece 2 vCPU, 8 GB de memoria RAM y 10 GB de almacenamiento SSD. Google realiza el cálculo por nosotros. Muestra un total de $48.92\$$ por la capacidad de procesamiento y salida de datos juntas. Y un total de $1.70\$$ por el almacenamiento. Esto resulta en un precio total de $50.62\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_small_price.png"/>
+</p>
 
 ##### 1.3.3.2 Máquina mediana
 
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_medium.png"/>
+</p>
+
+La máquina mediana de Google ofrece 4 vCPU, 16 GB de memoria RAM y 20 GB de almacenamiento SSD. Google realiza el cálculo por nosotros. Muestra un total de $97.84\$$ por la capacidad de procesamiento y salida de datos juntas. Y un total de $3.40\$$ por el almacenamiento. Esto resulta en un precio total de $101.24\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_medium_price.png"/>
+</p>
+
 ##### 1.3.3.3 Máquina grande
+
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_large.png"/>
+</p>
+
+La máquina grande de Google ofrece 8 vCPU, 32 GB de memoria RAM y 40 GB de almacenamiento SSD. Google realiza el cálculo por nosotros. Muestra un total de $195.67\$$ por la capacidad de procesamiento y salida de datos juntas. Y un total de $6.80\$$ por el almacenamiento. Esto resulta en un precio total de $202.47\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/cloud_E2_large_price.png"/>
+</p>
 
 ### 1.4 Imágenes y diagramas
 
