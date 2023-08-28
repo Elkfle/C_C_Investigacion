@@ -39,7 +39,7 @@ Es así que el total nos da $(0.0188 \cdot 24 \cdot 30) + 3.00 = 16.54 \$$ dolar
 
 #### 1.2.2 Microsoft Azure
 
-Para el caso de Microsoft Azure dentro de su [calculadora](https://azure.microsoft.com/es-es/pricing/calculator/) de precios seleccionamos la instancia [Av2 series v2](https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series). Esta cuesta con un costo aproximado de $0.043\$$ por hora. Es decir esto nos daría un costo aproximado de $31,39$$ mensualmente, además debemos considerar que estamos cotizando con un vCPU menos (*modelo más cercano*).
+Para el caso de Microsoft Azure dentro de su [calculadora](https://azure.microsoft.com/es-es/pricing/calculator/) de precios seleccionamos la instancia [Av2 series v2](https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series). Esta cuesta con un costo aproximado de $0.043\$$ por hora. Es decir esto nos daría un costo aproximado de $31.39$$ mensualmente, además debemos considerar que estamos cotizando con un vCPU menos (*modelo más cercano*).
 
 <p align="center">
     <img align="center" src="src/images/cloud_machine.png"/>
@@ -94,11 +94,43 @@ $(0.0752 \cdot 24 \cdot 30) + 0.08 \cdot 40 = 57.344\$$ dólares mensuales.
 
 #### 1.3.2 Máquinas de Microsoft Azure
 
+Para el caso de Microsoft Azure tomaremos como referencia la máquina [Av2 series v2](https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series) mencionada anteriormente. Microsoft las describe como "máquinas virtuales con configuraciones de rendimiento de CPU y memoria más adecuadas para cargas de trabajo de nivel de entrada, como desarrollo y pruebas."
+
 ##### 1.3.2.1 Máquina pequeña
+
+<p align="center">
+    <img align="center" src="src/images/azure_av2_small.png"/>
+</p>
+
+Esta máquina nos ofrece 1 núcleo de procesamiento, 2 GB de memoria RAM y 10GB de almacenamiento temporal. Su precio es de $0.043\$$ la hora. La página oficial de Microsoft Azure realiza el cálculo por nosotros, indicando un precio promedio de $31.39\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/azure_av2_small_price.png"/>
+</p>
 
 ##### 1.3.2.2 Máquina mediana
 
+<p align="center">
+    <img align="center" src="src/images/azure_av2_medium.png"/>
+</p>
+
+Esta máquina nos ofrece 2 núcleos de procesamiento, 4 GB de memoria RAM y 20GB de almacenamiento temporal. Su precio es de $0.091\$$ la hora. La página oficial de Microsoft Azure realiza el cálculo por nosotros, indicando un precio promedio de $66.43\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/azure_av2_medium_price.png"/>
+</p>
+
 ##### 1.3.2.3 Máquina grande
+
+<p align="center">
+    <img align="center" src="src/images/azure_av2_large.png"/>
+</p>
+
+Esta máquina nos ofrece 4 núcleos de procesamiento, 8 GB de memoria RAM y 40GB de almacenamiento temporal. Su precio es de $0.191\$$ la hora. La página oficial de Microsoft Azure realiza el cálculo por nosotros, indicando un precio promedio de $139.43\$$ mensuales.
+
+<p align="center">
+    <img align="center" src="src/images/azure_av2_large_price.png"/>
+</p>
 
 #### 1.3.3 Máquinas de Google Cloud
 
