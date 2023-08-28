@@ -55,11 +55,29 @@ En este caso, a partir de su modelo de creación por [calculadora](https://cloud
 
 ### 1.3 Comparación entre los 3 proveedores. Máquinas pequeñas/medianas/grandes.
 
-#### 1.3.1 Máquina pequeña
+#### 1.3.1 Máquinas de Amazon
 
-#### 1.3.2 Máquina mediana
+##### 1.3.1.1 Máquina pequeña
 
-#### 1.3.3 Máquina grande
+##### 1.3.1.2 Máquina mediana
+
+##### 1.3.1.3 Máquina grande
+
+#### 1.3.2 Máquinas de Microsoft Azure
+
+##### 1.3.2.1 Máquina pequeña
+
+##### 1.3.2.2 Máquina mediana
+
+##### 1.3.2.3 Máquina grande
+
+#### 1.3.3 Máquinas de Google Cloud
+
+##### 1.3.3.1 Máquina pequeña
+
+##### 1.3.3.2 Máquina mediana
+
+##### 1.3.3.3 Máquina grande
 
 ### 1.4 Imágenes y diagramas
 
@@ -70,6 +88,8 @@ En este caso, a partir de su modelo de creación por [calculadora](https://cloud
 - https://cloud.google.com/products/calculator#id=abf90f35-0d04-4796-91a9-8ee4889cf5cb
 - https://aws.amazon.com/ec2/pricing/on-demand/
 - https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series
+- https://aws.amazon.com/es/ec2/instance-types/
+- https://cloud.google.com/compute?hl=es#section-6
 
 ---
 
