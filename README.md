@@ -110,7 +110,7 @@ Esta máquina nos ofrece 1 núcleo de procesamiento, 2 GB de memoria RAM y 10GB 
 
 ##### 1.3.2.2 Máquina mediana
 
-<p align="center">
+<p align="center">git@github.com:Elkfle/C_C_Investigacion.git
     <img align="center" src="src/images/azure_av2_medium.png"/>
 </p>
 
@@ -176,14 +176,14 @@ La máquina grande de Google ofrece 8 vCPU, 32 GB de memoria RAM y 40 GB de alma
 
 ### 1.5 Referencias APA
 
-- https://azure.microsoft.com/es-es/explore/global-infrastructure
-- https://aws.amazon.com/about-aws/global-infrastructure/
-- https://cloud.google.com/products/calculator#id=abf90f35-0d04-4796-91a9-8ee4889cf5cb
-- https://aws.amazon.com/ec2/pricing/on-demand/
-- https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series
-- https://aws.amazon.com/es/ec2/instance-types/
-- https://cloud.google.com/compute?hl=es#section-6
-- https://cloud.google.com/compute/docs/machine-types#e2_machine_types
+- Infraestructura Global: Microsoft Azure. Infraestructura global | Microsoft Azure. (n.d.). https://azure.microsoft.com/es-es/explore/global-infrastructure 
+- Young, K., &amp; Napolitano, T. (2017). Taproot: A story about a gardener and a ghost. Amazon. https://aws.amazon.com/about-aws/global-infrastructure/ 
+- Google. (n.d.). Google Cloud Pricing Calculator. https://cloud.google.com/products/calculator#id=abf90f35-0d04-4796-91a9-8ee4889cf5cb 
+- Daly, D. J., &amp; Daly, D. J. (1987). Economics 2: EC2. Amazon. https://aws.amazon.com/ec2/pricing/on-demand/ 
+- Av2-series - azure virtual machines. Azure Virtual Machines | Microsoft Learn. https://learn.microsoft.com/en-us/azure/virtual-machines/av2-series 
+- Daly, D. J., &amp; Daly, D. J. (1987a). Economics 2: EC2. Amazon. https://aws.amazon.com/ec2/instance-types/ 
+- Google. (n.d.). Compute engine&nbsp; |&nbsp; Compute&nbsp;Engine: Máquinas&nbsp;virtuales&nbsp;(VM)&nbsp; |&nbsp; google cloud. Google. https://cloud.google.com/compute?hl=es#section-6 
+- Google. (n.d.-b). Machine Families Resource and comparison guide&nbsp; |&nbsp; Compute Engine Documentation&nbsp; |&nbsp; google cloud. Google. https://cloud.google.com/compute/docs/machine-types#e2_machine_types 
 
 ---
 
